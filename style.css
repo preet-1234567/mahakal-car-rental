@@ -65,7 +65,7 @@ h2 span, h1 span {
 .navbar {
     min-height: 82px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     gap: 20px;
 }
@@ -787,4 +787,16 @@ header .hamburger {
   order: -1 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+/* LOGO + NAME + ICON SAB LEFT ME */
+.navbar {
+  justify-content: flex-start !important;
+}
+.logo {
+  margin-right: auto !important;
+}
+/* Hamburger ko sabse left me */
+.nav-toggle, .hamburger, .menu-btn, .navbar button {
+  order: -1 !important;
+  margin-left: 0 !important;
 }
