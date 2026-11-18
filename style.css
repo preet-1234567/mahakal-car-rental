@@ -1021,3 +1021,21 @@ img {
 .main-header .navbar {
     justify-content: flex-start !important;
 }
+/* REMOVE HAMBURGER BUTTON COMPLETELY */
+
+#menuToggle,
+.menu-toggle,
+button.menu-toggle {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Navbar alignment */
+.main-header .navbar {
+    justify-content: flex-start !important;
+}
