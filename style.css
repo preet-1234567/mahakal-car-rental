@@ -1052,3 +1052,16 @@ button.menu-toggle {
     font-size: 22px !important;
     letter-spacing: 5px;
 }
+/* CAR RENTALS TEXT DESIGN FIX */
+
+.main-header .brand-name span {
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 3px !important;
+    color: #D8AD5C !important;
+    line-height: 1.4 !important;
+    margin-top: 5px !important;
+    white-space: nowrap !important;
+    text-transform: uppercase;
+}
