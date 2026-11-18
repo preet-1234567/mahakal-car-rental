@@ -1065,3 +1065,18 @@ button.menu-toggle {
     white-space: nowrap !important;
     text-transform: uppercase;
 }
+/* REMOVE GAP BETWEEN BRAND NAME AND CAR RENTALS */
+
+.main-header .brand-name {
+    gap: 0 !important;
+}
+
+.main-header .brand-name h2 {
+    margin-bottom: 0 !important;
+    line-height: 1 !important;
+}
+
+.main-header .brand-name span {
+    margin-top: 0 !important;
+    line-height: 1 !important;
+}
