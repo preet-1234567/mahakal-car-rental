@@ -978,3 +978,31 @@ footer a:hover {
     flex-shrink: 0 !important;
     order: 2;
 }
+/* REMOVE LEFT AND RIGHT EXTRA SPACE */
+
+html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+#root,
+main,
+header,
+section,
+footer {
+    max-width: 100% !important;
+}
+
+.hero,
+.hero-content,
+.main-header,
+.navbar {
+    margin-left: 0 !important;
+}
+
+img {
+    max-width: 100%;
+}
