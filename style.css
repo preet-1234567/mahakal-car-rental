@@ -1009,3 +1009,15 @@ img {
 .main-header .menu-toggle {
     display: none !important;
 }
+/* REMOVE NAVBAR SQUARE BOX */
+
+.main-header .menu-toggle {
+    display: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+/* Keep logo and brand aligned */
+.main-header .navbar {
+    justify-content: flex-start !important;
+}
