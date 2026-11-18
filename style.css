@@ -965,3 +965,16 @@ footer a:hover {
     }
 
 }
+.main-header .navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.main-header .menu-toggle {
+    display: flex !important;
+    margin-left: auto !important;
+    flex-shrink: 0 !important;
+    order: 2;
+}
