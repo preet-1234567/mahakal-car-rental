@@ -1148,3 +1148,99 @@ main {
     font-size: 38px;
     color: white;
 }
+/* =================================
+   MOBILE WEBSITE LAYOUT FIX
+================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    min-width: 0 !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* All main sections */
+
+section,
+main,
+.container,
+.section-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Car section */
+
+.cars-grid,
+.car-grid,
+.fleet-grid,
+.cars-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    gap: 20px !important;
+}
+
+/* Individual car cards */
+
+.car-card,
+.vehicle-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Car images */
+
+.car-card img,
+.vehicle-card img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Mobile screen */
+
+@media (max-width: 768px) {
+
+    .hero,
+    .hero-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    h1, h2, h3, p {
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .whatsapp-float {
+        right: 15px !important;
+        left: auto !important;
+    }
+}
