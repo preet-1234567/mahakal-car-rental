@@ -902,3 +902,114 @@ html, body {
   font-size: 10px !important;
   letter-spacing: 3px !important;
 }
+/* ===== MOBILE LAYOUT FIX ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container,
+header,
+nav,
+section,
+main,
+footer {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo img {
+    max-width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Hero section */
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    padding: 70px 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hero content */
+.hero-content {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    right: 18px;
+    bottom: 20px;
+    left: auto;
+    z-index: 9999;
+}
+
+/* All sections */
+section {
+    overflow: hidden;
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        padding: 12px 15px;
+    }
+
+    .hero {
+        padding: 65px 20px;
+        min-height: 100vh;
+    }
+
+    .hero h1 {
+        font-size: clamp(38px, 10vw, 60px);
+        line-height: 1.1;
+    }
+
+    .hero p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .hero button,
+    .hero a {
+        max-width: 100%;
+    }
+
+    .whatsapp-float {
+        right: 15px;
+        bottom: 15px;
+    }
+}
