@@ -860,3 +860,45 @@ html, body {
   bottom: 16px !important;
   z-index: 9999 !important;
 }
+/* ===== LOGO PURA LEFT ME + CHHOTA ===== */
+.navbar {
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  flex-wrap: nowrap !important;
+  overflow: hidden !important;
+}
+
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 8px !important;
+  flex: 1 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+}
+
+/* Logo ka gol icon chhota karo */
+.logo-icon, .logo img, .logo .logo-img {
+  width: 48px !important;
+  height: 48px !important;
+  min-width: 48px !important;
+  flex-shrink: 0 !important;
+}
+
+/* MAHAKAL text chhota karo taaki kate nahi */
+.logo-text, .logo h1, .logo .brand-name {
+  min-width: 0 !important;
+  white-space: nowrap !important;
+}
+
+.logo-text h1, .logo h1, .brand-name {
+  font-size: 24px !important;
+  line-height: 1.1 !important;
+  letter-spacing: 1px !important;
+}
+
+.logo-text span, .logo p, .logo .tagline {
+  font-size: 10px !important;
+  letter-spacing: 3px !important;
+}
