@@ -1443,3 +1443,20 @@ footer {
         margin-bottom: 22px !important;
     }
 }
+/* CAR IMAGE SIZE FIX */
+
+.car-card img {
+    width: 100% !important;
+    height: 230px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 768px) {
+    .car-card img {
+        height: 220px !important;
+    }
+}
