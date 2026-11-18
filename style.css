@@ -1119,3 +1119,6 @@ button.menu-toggle {
     margin: 0 !important;
     line-height: 1.2 !important;
 }
+.main-header .brand-name span {
+    color: white !important;
+}
