@@ -1042,13 +1042,13 @@ button.menu-toggle {
 /* MAHAKAL BRAND NAME SIZE */
 
 .main-header .brand-name h2 {
-    font-size: 32px !important;
+    font-size: 36px !important;
     letter-spacing: 2px;
     font-weight: bold;
 }
 
 /* CAR RENTALS TEXT */
 .main-header .brand-name span {
-    font-size: 12px !important;
+    font-size: 22px !important;
     letter-spacing: 5px;
 }
