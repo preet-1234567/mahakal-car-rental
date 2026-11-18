@@ -838,3 +838,25 @@ html, body {
   right: 15px !important;
   bottom: 20px !important;
 }
+/* ===== PHONE FULL WIDTH FIX - SIRF YAHI RAKHNA ===== */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.navbar, .hero, .container, main, section, footer {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* WA button - bilkul andar */
+.whatsapp-float, .whatsapp-btn, a[href*="wa.me"] {
+  position: fixed !important;
+  right: 16px !important;
+  bottom: 16px !important;
+  z-index: 9999 !important;
+}
