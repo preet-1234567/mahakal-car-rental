@@ -1144,3 +1144,7 @@ body {
 main {
     padding-top: 105px !important;
 }
+.whatsapp-float i {
+    font-size: 38px;
+    color: white;
+}
