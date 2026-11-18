@@ -1006,3 +1006,6 @@ footer {
 img {
     max-width: 100%;
 }
+.main-header .menu-toggle {
+    display: none !important;
+}
