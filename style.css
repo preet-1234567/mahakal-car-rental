@@ -1405,3 +1405,41 @@ footer {
     text-align: center;
     color: #D8AD5C !important;
 }
+/* ABOUT SECTION GAP FIX */
+
+#about {
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+}
+
+#about .about-content {
+    gap: 20px !important;
+}
+
+#about h2 {
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+}
+
+#about p {
+    margin-top: 0 !important;
+    margin-bottom: 22px !important;
+    line-height: 1.7 !important;
+}
+
+/* MOBILE SPACING */
+
+@media (max-width: 768px) {
+    #about {
+        padding: 35px 20px !important;
+    }
+
+    #about h2 {
+        margin-top: 15px !important;
+        margin-bottom: 25px !important;
+    }
+
+    #about p {
+        margin-bottom: 22px !important;
+    }
+}
