@@ -3,7 +3,7 @@
    PREMIUM BLACK & GOLD WEBSITE
    COMPLETE RESPONSIVE CSS
 ===================================== */
-
+https://github.com/preet-1234567/mahakal-car-rental/edit/main/style.css
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
 
 /* RESET */
@@ -1332,4 +1332,76 @@ footer {
 .vehicle-card {
     width: 100% !important;
     margin: 0 auto !important;
+}
+/* PREMIUM CIRCULAR GOLD MENU */
+
+.main-header .navbar {
+    position: relative;
+}
+
+.menu-toggle {
+    width: 54px !important;
+    height: 54px !important;
+    min-width: 54px !important;
+    border: 1.5px solid #D8AD5C !important;
+    border-radius: 50% !important;
+    background: transparent !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 6px !important;
+    margin-left: auto !important;
+    padding: 10px !important;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 27px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* DROPDOWN PANEL */
+
+.mobile-menu {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 7%;
+    width: 86% !important;
+    background: rgba(5,5,5,0.97) !important;
+    border: 1px solid #292929;
+    border-radius: 22px;
+    padding: 22px 28px !important;
+    z-index: 99999;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+}
+
+.mobile-menu.active {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.mobile-menu a {
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 15px 5px;
+    border-bottom: none !important;
+}
+
+.mobile-menu a:hover {
+    color: #D8AD5C !important;
+}
+
+.mobile-menu .menu-booking {
+    margin-top: 12px;
+    border: 1px solid #D8AD5C !important;
+    border-radius: 40px;
+    text-align: center;
+    color: #D8AD5C !important;
 }
